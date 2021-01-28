@@ -1,1 +1,51 @@
+#new-items {
+  height: 425px;
+}
 
+.header-img {
+  position: absolute;
+  height: 175px;
+  top: 10px;
+  z-index: 1;
+}
+
+.top {
+  height: 37px;
+}
+
+.person-fill-css {
+  display: none;
+}
+
+.person-link:hover .person-css {
+  display: none;
+}
+
+.person-link:hover .person-fill-css {
+  display: inline;
+}
+
+.bag-fill-css {
+  display: none;
+}
+
+.bag-link:hover .bag-css {
+  display: none;
+}
+
+.bag-link:hover .bag-fill-css {
+  display: inline;
+}
+
+.carousel {
+  height: 450px;
+  width: 100%;
+  background-color: #284b85;
+}
+
+.upton-header {
+  position: absolute;
+  left: 240px;
+  top: 60px;
+  z-index: 1;
+}
