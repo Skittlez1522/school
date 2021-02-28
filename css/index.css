@@ -126,9 +126,9 @@
   padding: 0 2%;
 }
 
-/* Frequentely Bought */
+/* Frequently Bought */
 
-#frequentely-bought {
+#frequently-bought {
   min-height: 425px;
   padding: 0 2%;
 }
@@ -179,8 +179,16 @@
   background-color: transparent;
 }
 
+.footer-sm {
+  display: none;
+}
+
 @media (max-width: 576px) {
   .footer-md-lg {
     display: none;
+  }
+
+  .footer-sm {
+    display: block;
   }
 }
