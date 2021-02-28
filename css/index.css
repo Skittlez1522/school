@@ -81,7 +81,7 @@
 
 .home-items-header {
   text-align: center;
-  padding-top: 2%;
+  padding-top: 5%;
 }
 
 .sm-display-carousel {
@@ -138,16 +138,7 @@
 #footer {
   min-height: 315px;
   background-color: #4169e1;
-}
-
-@media screen and (max-width: 576px) {
-  #footer {
-    height: 800px;
-  }
-}
-
-.footer {
-  padding: 3% 2%;
+  padding: 2% 10%;
 }
 
 .NDS-b {
@@ -186,4 +177,10 @@
 .footer-nav-copy-button {
   border: none;
   background-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .footer-md-lg {
+    display: none;
+  }
 }
