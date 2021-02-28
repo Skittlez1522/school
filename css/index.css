@@ -1,6 +1,35 @@
-#new-items {
-  height: 425px;
+/* Universal */
+
+.home-product-card {
+    height: 18.75rem;
+    width: 97%;
+    display: block;
+    margin: auto;
+    position: fixed;
+    z-index: 2;
 }
+
+.product-card-img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.product-card-header {
+    text-align: center;
+}
+
+.product-card-header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-card-price {
+   text-align: center;
+   color: gray;
+}
+
+/* Universal Header */
 
 .header-img {
   position: absolute;
@@ -37,15 +66,124 @@
   display: inline;
 }
 
-.carousel {
-  height: 450px;
-  width: 100%;
-  background-color: #284b85;
-}
-
 .upton-header {
   position: absolute;
   left: 240px;
   top: 60px;
   z-index: 1;
+}
+
+/* Universal Home */
+
+.home-product-row {
+    padding: 3% 10% 2%;
+}
+
+.home-items-header {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.sm-display-carousel {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .sm-display-carousel {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .md-lg-display-carousel {
+    display: none;
+  }
+}
+
+/* Home Header */
+
+#home-header-carousel {
+  height: 450px;
+}
+
+.carousel-header {
+  height: 28.125rem;
+  width: 100%;
+  background-color: #284b85;
+}
+
+/* New Items */
+
+#new-items {
+  min-height: 425px;
+  padding: 0 2%;
+}
+
+/* Featured Items */
+
+#featured-items {
+  min-height: 425px;
+  padding: 0 2%;
+}
+
+/* Frequentely Bought */
+
+#frequentely-bought {
+  min-height: 425px;
+  padding: 0 2%;
+}
+
+/* Footer */
+
+#footer {
+  min-height: 315px;
+  background-color: #4169e1;
+}
+
+@media screen and (max-width: 576px) {
+  #footer {
+    height: 800px;
+  }
+}
+
+.footer {
+  padding: 3% 2%;
+}
+
+.NDS-b {
+  color: #fff;
+}
+
+.NDS {
+  color: rgba(255,255,255,.5);
+}
+
+.footer-nav {
+  color: #fff;
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.footer-nav-link {
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+}
+
+.footer-nav-link:hover {
+  color: rgba(255,255,255,.75);
+}
+
+.footer-nav-text {
+  color: rgba(255,255,255,.5);
+  display: inline;
+}
+
+.footer-nav-contact-li {
+  color: rgba(255, 255, 255, .85)
+}
+
+.footer-nav-copy-button {
+  border: none;
+  background-color: transparent;
 }
