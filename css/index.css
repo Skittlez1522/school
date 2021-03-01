@@ -74,20 +74,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar-expand {
-    position: relative;
-    z-index: 2;
-  }
-
-  .header-img, .upton-header {
-    position: absolute;
-    z-index: -1;
-  }
-
-  .carousel-header {
-    position: relative;
-    z-index: -2;
-  }
+    .nav-item {
+        text-align: right;
+    }
 }
 
 /* Universal Home */
