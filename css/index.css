@@ -98,18 +98,7 @@
 
 .home-items-header {
   text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .home-items-header {
-    padding-top: 5%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .home-items-header {
-    padding-top: 2%;
-  }
+  padding-top: 5%;
 }
 
 .sm-display-carousel {
