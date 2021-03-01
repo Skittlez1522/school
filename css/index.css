@@ -29,6 +29,10 @@
 }
 
 /* Universal Accessibility */
+:focus {
+  outline: 2px bold black;
+}
+
 a.skip-header {
   left: -999px;
   position: absolute;
