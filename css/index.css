@@ -135,29 +135,32 @@
 }
 
 .carousel-header {
-  max-height: 28.125rem;
+  height: 28.125rem;
   width: 100%;
   background-color: #284b85;
 }
 
+.carousel-header-img {
+  border: 0px !important;
+}
 /* New Items */
 
   #new-items {
-    min-height: 425px;
+    min-height: 325px;
     padding: 0 2%;
   }
 
 /* Featured Items */
 
   #featured-items {
-    min-height: 425px;
+    min-height: 325px;
     padding: 0 2%;
   }
 
 /* Frequently Bought */
 
   #frequently-bought {
-    min-height: 425px;
+    min-height: 325px;
     padding: 0 2%;
   }
 
