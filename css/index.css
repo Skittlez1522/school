@@ -251,7 +251,10 @@ a.skip-footer:focus {
   }
 }
 
-
+a[href^=tel] {
+  text-decoration: inherit;
+  color: inherit;
+}
 /* Home Header */
 #home-header-carousel {
   height: 450px;
