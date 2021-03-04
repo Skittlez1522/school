@@ -1,4 +1,8 @@
 /* Universal */
+h1, h2, h3, a, p {
+  color: #2e313c;
+}
+
 .home-product-card {
   height: 18.75rem;
   width: 97%;
@@ -148,6 +152,10 @@ a.skip-footer:focus {
   z-index: 1;
 }
 
+.header-black {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   .nav-item {
     text-align: right;
@@ -180,40 +188,10 @@ a.skip-footer:focus {
   }
 }
 
-/* Home Header */
-#home-header-carousel {
-  height: 450px;
+.nav-header {
+  color: white;
 }
-
-.carousel-header {
-  height: 28.125rem;
-  width: 100%;
-  background-color: #284b85;
-}
-
-.carousel-header-img {
-  border: 0px !important;
-}
-
-/* New Items */
-#new-items {
-  min-height: 325px;
-  padding: 0 2%;
-}
-
-/* Featured Items */
-#featured-items {
-  min-height: 325px;
-  padding: 0 2%;
-}
-
-/* Frequently Bought */
-#frequently-bought {
-  min-height: 325px;
-  padding: 0 2%;
-}
-
-/* Footer */
+/* Footer Universal */
 #footer {
   min-height: 315px;
   background-color: #4169e1;
@@ -271,4 +249,105 @@ a.skip-footer:focus {
   .footer-sm {
     display: block;
   }
+}
+
+
+/* Home Header */
+#home-header-carousel {
+  height: 450px;
+}
+
+.carousel-header {
+  height: 28.125rem;
+  width: 100%;
+  background-color: #284b85;
+}
+
+.carousel-header-img {
+  border: 0px !important;
+}
+
+/* New Items */
+#new-items {
+  min-height: 325px;
+  padding: 0 2%;
+}
+
+/* Featured Items */
+#featured-items {
+  min-height: 325px;
+  padding: 0 2%;
+}
+
+/* Frequently Bought */
+#frequently-bought {
+  min-height: 325px;
+  margin: 0 2%;
+}
+
+/* Product Page */
+#product-section {
+  min-height: 500px;
+  padding: 15% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  #product-section {
+    padding: 30% 10% 10%;
+  }
+}
+
+.image-indicators-container {
+  height: 373px;
+}
+
+.image-indicators {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  padding: 5% 0;
+}
+
+.product-img-indicator {
+  padding: 2%;
+}
+
+.product-img {
+  padding: 0 10%;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.product-header {
+  padding: 0 15%;
+}
+
+.product-forms {
+  padding: 5% 19% 2.5% 15%;
+}
+
+.product-color-start {
+  display: inline;
+  padding-right: 1%;
+}
+
+.product-color {
+  display: inline;
+  padding: 0 3% 0 1%;
+}
+
+.product-color-button {
+  height: 35px;
+  width: 35px;
+  background-color: #4169e1;
+  border-radius: 50%;
+  border: none;
+}
+
+.product-color-button:hover {
+  background-color: rgba(65, 105, 225, .75);
 }
