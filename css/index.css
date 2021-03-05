@@ -1,5 +1,5 @@
 /* Universal */
-h1, h2, h3, a, p {
+h1, h2, h3, h4, a, p {
   color: #2e313c;
 }
 
@@ -153,7 +153,7 @@ a.skip-footer:focus {
 }
 
 .header-black {
-  color: black;
+  color: #2e313c;
 }
 
 @media screen and (max-width: 768px) {
@@ -358,4 +358,63 @@ a[href^=tel]:hover {
 
 .product-color-button:hover {
   background-color: rgba(65, 105, 225, .75);
+}
+
+/* Men's Page */
+#items {
+  padding: 15% 10% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  #items {
+    padding: 30% 10% 10%
+  }
+}
+
+.filters-h5 {
+  font-weight: normal;
+}
+
+.filters-link {
+  text-decoration: none;
+}
+
+.filters-link:hover {
+  text-decoration: underline;
+}
+
+.filters-check {
+  padding: 3% 0 3% 0;
+}
+
+.items-page-header {
+  padding: 0 3% 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .items-page-header {
+    padding-top: 9%;
+  }
+}
+
+.item-page-product-card {
+  padding: 7% 0;
+}
+
+.filters-popup-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .filters-popup-btn {
+    display: block;
+  }
+
+  .filter-card-col {
+    display: none;
+  }
+}
+
+.modal-title {
+  color: #2e313c;
 }
