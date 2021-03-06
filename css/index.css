@@ -126,11 +126,11 @@ a.skip-footer:focus {
 
 @media screen and (max-width: 768px) {
   .header-img {
-    height: 150px;
+    height: 125px;
   }
 
   .upton-header {
-    left: 215px;
+    left: 190px;
   }
 }
 
