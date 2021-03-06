@@ -117,6 +117,23 @@ a.skip-footer:focus {
   z-index: 1;
 }
 
+.upton-header {
+  position: absolute;
+  left: 240px;
+  top: 60px;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .header-img {
+    height: 150px;
+  }
+
+  .upton-header {
+    left: 215px;
+  }
+}
+
 .top {
   height: 37px;
 }
@@ -143,13 +160,6 @@ a.skip-footer:focus {
 
 .bag-link:hover .bag-fill-css {
   display: inline;
-}
-
-.upton-header {
-  position: absolute;
-  left: 240px;
-  top: 60px;
-  z-index: 1;
 }
 
 .header-black {
