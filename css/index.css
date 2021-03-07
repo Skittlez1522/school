@@ -172,6 +172,10 @@ a.skip-footer:focus {
   }
 }
 
+.dropdown-menu-cart {
+  width: 400px;
+}
+
 /* Universal Home */
 .home-product-row {
   padding: 3% 10% 2%;
@@ -311,7 +315,7 @@ a[href^=tel]:hover {
 
 @media screen and (max-width: 768px) {
   #product-section {
-    padding: 30% 10% 10%;
+    padding: 25% 10% 10%;
   }
 }
 
@@ -377,7 +381,7 @@ a[href^=tel]:hover {
 
 @media screen and (max-width: 768px) {
   #items {
-    padding: 30% 10% 10%
+    padding: 25% 10% 10%
   }
 }
 
@@ -427,4 +431,160 @@ a[href^=tel]:hover {
 
 .modal-title {
   color: #2e313c;
+}
+
+/* Cart Mini Display Universal */
+
+.mini-cart-display {
+    width: 100%;
+    max-height: 295px;
+}
+
+.cart-item-img-div {
+    padding: 2%;
+}
+
+.mini-cart-item {
+    max-height: 110px;
+}
+
+.mini-cart-item-text-header {
+    font-size: 23px;
+    text-decoration: none;
+    color: #2e313c;
+}
+
+.mini-cart-item-text {
+    line-height: .5;
+    color: #2e313c;
+}
+
+.mini-cart-item-info {
+    padding-top: 30px;
+}
+
+.mini-cart-item-price {
+    font-size: 17px;
+}
+
+/* Cart Page */
+
+#cart {
+  padding: 12% 10% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  #cart {
+    padding: 25% 10% 10%;
+  }
+}
+
+.cart-item-img-div {
+    padding: 2%;
+}
+
+.cart-item {
+    padding: 2% 0;
+}
+
+.cart-item-header {
+    text-decoration: none;
+    color: #2e313c;
+}
+
+.cart-item-header:hover {
+    text-decoration: underline;
+    color: #2e313c;
+}
+
+.cart-item-text {
+    line-height: .5;
+}
+
+.cart-item-info {
+    padding-top: 30px;
+}
+
+.quantity-select-cart-item {
+    margin-top: 90px;
+}
+
+.cart-item-price {
+    font-size: 25px;
+}
+
+.remove-item-link {
+    text-decoration: none;
+}
+
+.remove-item-link:hover {
+    text-decoration: underline;
+}
+
+.remove-item-link-div {
+    margin-top: 167px;
+}
+
+.price-card-text {
+  font-size: 20px;
+  color: #2e313c;
+}
+
+.price-card-price {
+  color: #2e313c;
+}
+
+.cart-hr {
+  margin: 0;
+}
+
+.cart-title {
+  margin-bottom: 1rem;
+}
+
+.checkout-btn {
+  padding: 5% 0;
+}
+
+.continue-shopping-btn {
+  text-decoration: none;
+}
+
+.continue-shopping-btn:hover .continue-shopping-arrow {
+  transform: translateX(-5px);
+  transition: 100ms;
+}
+
+.coupon-code-header {
+  color: #2e313c;
+}
+
+.coupon-code-input {
+  padding: 3% 0;
+}
+
+.coupon-code-btn {
+  padding: 6% 0;
+}
+
+.cart-update-btn {
+  padding: 6% 0;
+}
+
+@media screen and (max-width: 768px) {
+  .coupon-code-cart {
+    padding-bottom: 3%;
+  }
+
+  .cart-update-btn {
+    padding: 4%;
+  }
+
+  .coupon-code-btn {
+    padding: 4%;
+  }
+}
+
+.cost-card {
+  padding: 5% 0;
 }
