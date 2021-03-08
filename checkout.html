@@ -539,359 +539,358 @@
                 </div>
               </div>
 
+              <div class="col-lg-12 col-md-12 col-12">
+                <h3>Shipping Details</h3>
+
+                <div class="mt-4">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Shipping Type</th>
+                        <th scope="col">Delivery Time</th>
+                        <th scope="col">Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td scope="col-4">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="shippingRadioBtn" id="standard-shipping-radio-btn-checkout">
+                            <label class="form-check-label" for="standard-shipping-radio-btn-checkout">
+                              Standard Shipping
+                            </label>
+                          </div> <!-- End of Dif Address Radio Button -->
+                        </td>
+                        <td scope="col-6">5-7 Work Days</td>
+                        <td scope="col-2">$08.00</td>
+                      </tr>
+
+                      <tr>
+                        <td scope="col-4">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="shippingRadioBtn" id="express-shipping-radio-btn-checkout">
+                            <label class="form-check-label" for="express-shipping-radio-btn-checkout">
+                              Express Shipping
+                            </label>
+                          </div> <!-- End of Dif Address Radio Button -->
+                        </td>
+                        <td scope="col-6">3-5 Work Days</td>
+                        <td scope="col-2">$12.00</td>
+                      </tr>
+
+                      <tr>
+                        <td scope="col-4">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="shippingRadioBtn" id="fast-shipping-radio-btn-checkout">
+                            <label class="form-check-label" for="fast-shipping-radio-btn-checkout">
+                              1-2 Day Shipping
+                            </label>
+                          </div> <!-- End of Dif Address Radio Button -->
+                        </td>
+                        <td scope="col-6">1-2 Work Days</td>
+                        <td scope="col-2">$18.00</td>
+                      </tr>
+
+                      <tr>
+                        <td scope="col-4">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="shippingRadioBtn" id="free-shipping-radio-btn-checkout">
+                            <label class="form-check-label" for="free-shipping-radio-btn-checkout">
+                              Free Shipping
+                            </label>
+                          </div> <!-- End of Dif Address Radio Button -->
+                        </td>
+                        <td scope="col-6">7-10 Work Days</td>
+                        <td scope="col-2">$00.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div> <!-- End of Shipping Info Col -->
+
+              <div class="col-lg-12 col-md-12 col-12">
+                <h3 class="my-3">Payment</h3>
+
+                <ul class="list-group mb-4">
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="paymentRadioBtn" id="card-payment-radio-btn-checkout" data-bs-toggle="collapse" data-bs-target="#card-payment-collapse" aria-expanded="false" aria-controls="creditCardPaymentMethodCollapse">
+                      <label class="form-check-label" for="card-payment-radio-btn-checkout">
+                        Credit/Debit Card <img src="imgs\cards.svg" alt="Cards Image">
+                      </label>
+                    </div> <!-- End of Form Check -->
+
+                    <div class="collapse mt-3" id="card-payment-collapse">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="mb-3">
+                            <label for="cardNumberForm" class="form-label">Card Number*</label>
+                            <input type="text" class="form-control" id="cardNumberForm" placeholder="Card Number">
+                          </div> <!-- End of Margin Div -->
+                        </div> <!-- End of Card Number Col -->
+
+                        <div class="col-12">
+                          <div class="mb-3">
+                            <label for="cardNameForm" class="form-label">Card Name*</label>
+                            <input type="text" class="form-control" id="cardNameForm" placeholder="Card Name">
+                          </div> <!-- End of Margin Div -->
+                        </div> <!-- End of Card Name Col -->
+
+                        <div class="col-5">
+                          <div class="mb-3">
+                            <select class="form-select" aria-label="Card Expiration Month">
+                              <option selected>Month</option>
+                              <option value="January">January</option>
+                              <option value="February">February</option>
+                              <option value="March">March</option>
+                              <option value="April">April</option>
+                              <option value="May">May</option>
+                              <option value="June">June</option>
+                              <option value="July">July</option>
+                              <option value="August">August</option>
+                              <option value="September">September</option>
+                              <option value="October">October</option>
+                              <option value="November">November</option>
+                              <option value="December">December</option>
+                            </select>
+                          </div> <!-- End of Margin Div -->
+                        </div> <!-- End of Card Expiration Month Col -->
+
+                        <div class="col-4">
+                          <div class="mb-3">
+                            <select class="form-select" aria-label="Card Expiration Year">
+                              <option selected>Year</option>
+                              <option value="2021">2021</option>
+                              <option value="2022">2022</option>
+                              <option value="2023">2023</option>
+                              <option value="2024">2024</option>
+                              <option value="2025">2025</option>
+                              <option value="2026">2026</option>
+                              <option value="2027">2027</option>
+                              <option value="2028">2028</option>
+                            </select>
+                          </div> <!-- End of Margin Div -->
+                        </div> <!-- End of Card Expiration Year Col -->
+
+                        <div class="col-3">
+                          <div class="mb-3">
+                            <input type="text" class="form-control" id="CVVForm" placeholder="CVV">
+                          </div> <!-- End of Margin Div -->
+                        </div> <!-- End of Card CVV -->
+
+                      </div> <!-- End of Collapse Row -->
+                    </div> <!-- End of Collapse -->
+                  </li> <!-- End of List Item: Credit Card Payment -->
+
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="paymentRadioBtn" id="paypal-radio-btn-checkout">
+                      <label class="form-check-label" for="paypal-radio-btn-checkout">
+                        <img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" border="0" alt="PayPal Logo">
+                      </label>
+                    </div> <!-- End of Form Check -->
+                  </li> <!-- End of List Item: Paypal Payment -->
+
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="paymentRadioBtn" id="apple-pay-radio-btn-checkout">
+                      <label class="form-check-label" for="apple-pay-radio-btn-checkout">
+                        <img src="imgs\Apple_Pay_Mark_RGB_041619.svg" border="0" height="26px" alt="Apple Pay Mark">
+                      </label>
+                    </div> <!-- End of Form Check -->
+                  </li> <!-- End of List Item: Apple Pay -->
+
+                  <li class="list-group-item">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="paymentRadioBtn" id="google-pay-radio-btn-checkout">
+                      <label class="form-check-label" for="google-pay-radio-btn-checkout">
+                        <img src="imgs\GPay_Acceptance_Mark_800.png" border="0" height="26px" alt="Google Pay Mark">
+                      </label>
+                    </div> <!-- End of Form Check -->
+                  </li> <!-- End of List Item: Google Pay -->
+                </ul>
+              </div> <!-- End of Payment Method Col -->
+
             </div> <!-- End of Forms Row -->
 
           </div> <!-- End of Form Col -->
 
           <div class="col-lg-4 col-md-4 col-12">
+            <div class="row">
 
-            <div class="card mb-4">
-              <div class="card-header">
-                Your Cart
-              </div>
+              <div class="col-lg-12 col-md-12 col-12">
 
-              <div class="card-body">
+                <div class="card mb-4">
+                  <div class="card-header">
+                    Your Cart
+                  </div>
 
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item list-group-item-cart">
-                    <div class="mini-cart-display overflow-auto">
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                          Items
-                        </li>
-                        <li class="list-group-item">
-                          <div class="mini-cart-item">
-                            <div class="row">
-                              <div class="col-4">
-                                <div class="cart-item-img-div">
-                                  <a href="cart-model">
-                                    <img class="cart-item-img img-fluid"
-                                      src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
-                                      alt="Sweatshirt">
-                                  </a>
+                  <div class="card-body">
+
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item list-group-item-cart">
+                        <div class="mini-cart-display overflow-auto">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                              Items
+                            </li>
+                            <li class="list-group-item">
+                              <div class="mini-cart-item">
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="cart-item-img-div">
+                                      <a href="cart-model">
+                                        <img class="cart-item-img img-fluid"
+                                          src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
+                                          alt="Sweatshirt">
+                                      </a>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-5">
+                                    <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
+                                    <div class="mini-cart-item-info">
+                                      <p class="mini-cart-item-text align-text-bottom">Size: M</p>
+                                      <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-3">
+                                    <p class="text-end mini-cart-item-price">$40.00</p>
+                                  </div>
                                 </div>
                               </div>
+                            </li>
 
-                              <div class="col-5">
-                                <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
-                                <div class="mini-cart-item-info">
-                                  <p class="mini-cart-item-text align-text-bottom">Size: M</p>
-                                  <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
+                            <li class="list-group-item">
+                              <div class="mini-cart-item">
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="cart-item-img-div">
+                                      <a href="cart-model">
+                                        <img class="cart-item-img img-fluid"
+                                          src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
+                                          alt="Sweatshirt">
+                                      </a>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-5">
+                                    <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
+                                    <div class="mini-cart-item-info">
+                                      <p class="mini-cart-item-text align-text-bottom">Size: M</p>
+                                      <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-3">
+                                    <p class="text-end mini-cart-item-price">$40.00</p>
+                                  </div>
                                 </div>
                               </div>
+                            </li>
 
-                              <div class="col-3">
-                                <p class="text-end mini-cart-item-price">$40.00</p>
+                            <li class="list-group-item">
+                              <div class="mini-cart-item">
+                                <div class="row">
+                                  <div class="col-4">
+                                    <div class="cart-item-img-div">
+                                      <a href="cart-model">
+                                        <img class="cart-item-img img-fluid"
+                                          src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
+                                          alt="Sweatshirt">
+                                      </a>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-5">
+                                    <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
+                                    <div class="mini-cart-item-info">
+                                      <p class="mini-cart-item-text align-text-bottom">Size: M</p>
+                                      <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-3">
+                                    <p class="text-end mini-cart-item-price">$40.00</p>
+                                  </div>
+                                </div>
                               </div>
-                            </div>
+                            </li>
+                          </ul>
+                        </div> <!-- End of Mini Cart Display -->
+                      </li>
+
+                      <li class="list-group-item list-item-price">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="price-card-text">Subtotal:</p>
                           </div>
-                        </li>
-
-                        <li class="list-group-item">
-                          <div class="mini-cart-item">
-                            <div class="row">
-                              <div class="col-4">
-                                <div class="cart-item-img-div">
-                                  <a href="cart-model">
-                                    <img class="cart-item-img img-fluid"
-                                      src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
-                                      alt="Sweatshirt">
-                                  </a>
-                                </div>
-                              </div>
-
-                              <div class="col-5">
-                                <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
-                                <div class="mini-cart-item-info">
-                                  <p class="mini-cart-item-text align-text-bottom">Size: M</p>
-                                  <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
-                                </div>
-                              </div>
-
-                              <div class="col-3">
-                                <p class="text-end mini-cart-item-price">$40.00</p>
-                              </div>
-                            </div>
+                          <div class="col-6">
+                            <p class="text-end price-card-price fw-light">$60.00</p>
                           </div>
-                        </li>
+                        </div>
+                      </li>
 
-                        <li class="list-group-item">
-                          <div class="mini-cart-item">
-                            <div class="row">
-                              <div class="col-4">
-                                <div class="cart-item-img-div">
-                                  <a href="cart-model">
-                                    <img class="cart-item-img img-fluid"
-                                      src="https://cdn.spiritshop.com/DynamicImageHandler.ashx?width=1000&height=1000&did=668&logo=null&pid=541&cid=4742&view=1&tt=Upton&bt=Bobcats&cp1=%23EEEEEE&cp2=%23808285&yt=2022&pset=0&tn=Your%20Name&tm=00&photo=0"
-                                      alt="Sweatshirt">
-                                  </a>
-                                </div>
-                              </div>
-
-                              <div class="col-5">
-                                <a class="mini-cart-item-text-header" href="">Sweatshirt</a>
-                                <div class="mini-cart-item-info">
-                                  <p class="mini-cart-item-text align-text-bottom">Size: M</p>
-                                  <p class="mini-cart-item-text align-text-bottom">Color: Blue</p>
-                                </div>
-                              </div>
-
-                              <div class="col-3">
-                                <p class="text-end mini-cart-item-price">$40.00</p>
-                              </div>
-                            </div>
+                      <li class="list-group-item">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="price-card-text">Tax:</p>
                           </div>
-                        </li>
-                      </ul>
-                    </div> <!-- End of Mini Cart Display -->
-                  </li>
+                          <div class="col-6">
+                            <p class="text-end price-card-price fw-light">$00.00</p>
+                          </div>
+                        </div>
+                      </li>
 
-                  <li class="list-group-item">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="price-card-text">Subtotal:</p>
-                      </div>
-                      <div class="col-6">
-                        <p class="text-end price-card-price fw-light">$60.00</p>
-                      </div>
-                    </div>
-                  </li>
+                      <li class="list-group-item">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="price-card-text">Shipping:</p>
+                          </div>
+                          <div class="col-6">
+                            <p class="text-end price-card-price fw-light">$08.00</p>
+                          </div>
+                        </div>
+                      </li>
 
-                  <li class="list-group-item">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="price-card-text">Tax:</p>
-                      </div>
-                      <div class="col-6">
-                        <p class="text-end price-card-price fw-light">$00.00</p>
-                      </div>
-                    </div>
-                  </li>
+                      <li class="list-group-item">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="price-card-text">Total:</p>
+                          </div>
+                          <div class="col-6">
+                            <p class="text-end price-card-price fw-light">$60.00</p>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
 
-                  <li class="list-group-item">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="price-card-text">Shipping:</p>
-                      </div>
-                      <div class="col-6">
-                        <p class="text-end price-card-price fw-light">$08.00</p>
-                      </div>
-                    </div>
-                  </li>
+                  </div> <!-- End of Mini Cart Display Card Body -->
 
-                  <li class="list-group-item">
-                    <div class="row">
-                      <div class="col-6">
-                        <p class="price-card-text">Total:</p>
-                      </div>
-                      <div class="col-6">
-                        <p class="text-end price-card-price fw-light">$60.00</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                </div> <!-- End of Mini Cart Display Card -->
+              </div> <!-- End of Mini Cart Display Col -->
 
-              </div> <!-- End of Mini Cart Display Card Body -->
-
-            </div> <!-- End of Mini Cart Display Card -->
-          </div> <!-- End of Mini Cart Display Col -->
-
+              <div class="col-lg-12 col-md-12 place-order-btn-md-lg justify-content-end">
+                <div class="mt-3">
+                  <p class="text-muted fs-6 mb-4">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+                  <button type="button" class="btn btn-primary w-100">Place Order</button>
+                </div> <!-- End of Margin Div -->
+              </div> <!-- End of Place Order Button Col -->
+            </div> <!-- End of Order Info Row -->
+          </div> <!-- End of Order Info Column -->
         </div> <!-- End of Billing Info Row -->
       </div> <!-- End of Billing Info Container-->
 
       <div class="container">
         <div class="row">
-
-          <div class="col-lg-8 col-md-8 col-12">
-            <h3>Shipping Details</h3>
-
-            <div class="mt-4">
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th scope="col">Shipping Type</th>
-                    <th scope="col">Delivery Time</th>
-                    <th scope="col">Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td scope="col-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="shippingRadioBtn" id="standard-shipping-radio-btn-checkout">
-                        <label class="form-check-label" for="standard-shipping-radio-btn-checkout">
-                          Standard Shipping
-                        </label>
-                      </div> <!-- End of Dif Address Radio Button -->
-                    </td>
-                    <td scope="col-6">5-7 Work Days</td>
-                    <td scope="col-2">$08.00</td>
-                  </tr>
-
-                  <tr>
-                    <td scope="col-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="shippingRadioBtn" id="express-shipping-radio-btn-checkout">
-                        <label class="form-check-label" for="express-shipping-radio-btn-checkout">
-                          Express Shipping
-                        </label>
-                      </div> <!-- End of Dif Address Radio Button -->
-                    </td>
-                    <td scope="col-6">3-5 Work Days</td>
-                    <td scope="col-2">$12.00</td>
-                  </tr>
-
-                  <tr>
-                    <td scope="col-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="shippingRadioBtn" id="fast-shipping-radio-btn-checkout">
-                        <label class="form-check-label" for="fast-shipping-radio-btn-checkout">
-                          1-2 Day Shipping
-                        </label>
-                      </div> <!-- End of Dif Address Radio Button -->
-                    </td>
-                    <td scope="col-6">1-2 Work Days</td>
-                    <td scope="col-2">$18.00</td>
-                  </tr>
-
-                  <tr>
-                    <td scope="col-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="shippingRadioBtn" id="free-shipping-radio-btn-checkout">
-                        <label class="form-check-label" for="free-shipping-radio-btn-checkout">
-                          Free Shipping
-                        </label>
-                      </div> <!-- End of Dif Address Radio Button -->
-                    </td>
-                    <td scope="col-6">7-10 Work Days</td>
-                    <td scope="col-2">$00.00</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-
-          </div> <!-- End of Shipping Info Col -->
-
-        </div> <!-- End of Shipping Info Row -->
-      </div> <!-- End of Shipping Info Container -->
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-8 col-12">
-            <h3 class="mt-3">Payment</h3>
-
-            <ul class="list-group">
-              <li class="list-group-item">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="paymentRadioBtn" id="card-payment-radio-btn-checkout" data-bs-toggle="collapse" data-bs-target="#card-payment-collapse" aria-expanded="false" aria-controls="creditCardPaymentMethodCollapse">
-                  <label class="form-check-label" for="card-payment-radio-btn-checkout">
-                    Credit/Debit Card <img src="imgs\cards.svg" alt="Cards Image">
-                  </label>
-                </div> <!-- End of Form Check -->
-
-                <div class="collapse mt-3" id="card-payment-collapse">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="mb-3">
-                        <label for="cardNumberForm" class="form-label">Card Number*</label>
-                        <input type="text" class="form-control" id="cardNumberForm" placeholder="Card Number">
-                      </div> <!-- End of Margin Div -->
-                    </div> <!-- End of Card Number Col -->
-
-                    <div class="col-12">
-                      <div class="mb-3">
-                        <label for="cardNameForm" class="form-label">Card Name*</label>
-                        <input type="text" class="form-control" id="cardNameForm" placeholder="Card Name">
-                      </div> <!-- End of Margin Div -->
-                    </div> <!-- End of Card Name Col -->
-
-                    <div class="col-5">
-                      <div class="mb-3">
-                        <select class="form-select" aria-label="Card Expiration Month">
-                          <option selected>Month</option>
-                          <option value="January">January</option>
-                          <option value="February">February</option>
-                          <option value="March">March</option>
-                          <option value="April">April</option>
-                          <option value="May">May</option>
-                          <option value="June">June</option>
-                          <option value="July">July</option>
-                          <option value="August">August</option>
-                          <option value="September">September</option>
-                          <option value="October">October</option>
-                          <option value="November">November</option>
-                          <option value="December">December</option>
-                        </select>
-                      </div> <!-- End of Margin Div -->
-                    </div> <!-- End of Card Expiration Month Col -->
-
-                    <div class="col-4">
-                      <div class="mb-3">
-                        <select class="form-select" aria-label="Card Expiration Year">
-                          <option selected>Year</option>
-                          <option value="2021">2021</option>
-                          <option value="2022">2022</option>
-                          <option value="2023">2023</option>
-                          <option value="2024">2024</option>
-                          <option value="2025">2025</option>
-                          <option value="2026">2026</option>
-                          <option value="2027">2027</option>
-                          <option value="2028">2028</option>
-                        </select>
-                      </div> <!-- End of Margin Div -->
-                    </div> <!-- End of Card Expiration Year Col -->
-
-                    <div class="col-3">
-                      <div class="mb-3">
-                        <input type="text" class="form-control" id="CVVForm" placeholder="CVV">
-                      </div> <!-- End of Margin Div -->
-                    </div> <!-- End of Card CVV -->
-
-                  </div> <!-- End of Collapse Row -->
-                </div> <!-- End of Collapse -->
-              </li> <!-- End of List Item: Credit Card Payment -->
-
-              <li class="list-group-item">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="paymentRadioBtn" id="paypal-radio-btn-checkout">
-                  <label class="form-check-label" for="paypal-radio-btn-checkout">
-                    <img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" border="0" alt="PayPal Logo">
-                  </label>
-                </div> <!-- End of Form Check -->
-              </li> <!-- End of List Item: Paypal Payment -->
-
-              <li class="list-group-item">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="paymentRadioBtn" id="apple-pay-radio-btn-checkout">
-                  <label class="form-check-label" for="apple-pay-radio-btn-checkout">
-                    <img src="imgs\Apple_Pay_Mark_RGB_041619.svg" border="0" height="26px" alt="Apple Pay Mark">
-                  </label>
-                </div> <!-- End of Form Check -->
-              </li> <!-- End of List Item: Apple Pay -->
-
-              <li class="list-group-item">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="paymentRadioBtn" id="google-pay-radio-btn-checkout">
-                  <label class="form-check-label" for="google-pay-radio-btn-checkout">
-                    <img src="imgs\GPay_Acceptance_Mark_800.png" border="0" height="26px" alt="Google Pay Mark">
-                  </label>
-                </div> <!-- End of Form Check -->
-              </li> <!-- End of List Item: Google Pay -->
-            </ul>
-          </div> <!-- End of Payment Method Col -->
-
-          <div class="col-lg-8 col-md-8 col-12">
-            <div class="mt-5">
-              <hr class="checkout-hr">
-            </div>
-          </div> <!-- End of hr Col -->
-
-        </div> <!-- End of Payment Method Row -->
-      </div> <!-- End of Payment Method Container -->
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-12">
+          <div class="col-lg-4 col-md-4 col-12 place-order-btn-sm">
+            <div class="col-lg-12 col-md-12 col-12">
+              <div class="mt-3">
+                <hr class="checkout-hr">
+              </div>
+            </div> <!-- End of hr Col -->
             <div class="mt-3">
               <p class="text-muted fs-6 mb-4">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
               <button type="button" class="btn btn-primary w-100">Place Order</button>
