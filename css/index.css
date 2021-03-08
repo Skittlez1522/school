@@ -310,12 +310,12 @@ a[href^=tel]:hover {
 /* Product Page */
 #product-section {
   min-height: 500px;
-  padding: 15% 10%;
+  padding: 12% 10%;
 }
 
 @media screen and (max-width: 768px) {
   #product-section {
-    padding: 25% 10% 10%;
+    padding: 20% 10% 10%;
   }
 }
 
@@ -376,12 +376,12 @@ a[href^=tel]:hover {
 
 /* Men's Page */
 #items {
-  padding: 15% 10% 10%;
+  padding: 12% 10% 10%;
 }
 
 @media screen and (max-width: 768px) {
   #items {
-    padding: 25% 10% 10%
+    padding: 20% 10% 10%
   }
 }
 
@@ -475,7 +475,7 @@ a[href^=tel]:hover {
 
 @media screen and (max-width: 768px) {
   #cart {
-    padding: 25% 10% 10%;
+    padding: 20% 10% 10%;
   }
 }
 
@@ -641,7 +641,7 @@ a[href^=tel]:hover {
 
 @media screen and (max-width: 768px) {
   #checkout-billing {
-    padding: 25% 10% 10%;
+    padding: 20% 10% 10%;
   }
 }
 
@@ -659,4 +659,22 @@ a[href^=tel]:hover {
 
 .list-group-item-cart {
   padding: 0.5rem 0;
+}
+
+.list-item-price {
+  background-color: #f5f5f5;
+}
+
+.place-order-btn-sm {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .place-order-btn-md-lg {
+    display: none;
+  }
+
+  .place-order-btn-sm {
+    display: block;
+  }
 }
