@@ -633,6 +633,9 @@ a[href^=tel]:hover {
   }
 }
 
+.ul-item-cart {
+  padding-left: 0;
+}
 /* Checkout Page */
 
 #checkout-billing {
