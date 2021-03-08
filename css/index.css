@@ -588,3 +588,75 @@ a[href^=tel]:hover {
 .cost-card {
   padding: 5% 0;
 }
+
+.dropdown-item-edited {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdown-item-edited:hover, .dropdown-item:focus {
+  color: #1e2125;
+}
+
+.dropdown-item-edited:hover .dropdown-cart-link {
+  text-decoration: underline;
+}
+
+.dropdown-cart-link {
+  display: inline;
+}
+
+.icon-dropdown-css {
+  display: inline;
+}
+
+.bag-link-sm {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .bag-link-sm {
+    display: block;
+  }
+
+  .bag-link-md-lg {
+    display: none;
+  }
+}
+
+/* Checkout Page */
+
+#checkout-billing {
+  padding: 12% 10% 10%;
+}
+
+@media screen and (max-width: 768px) {
+  #checkout-billing {
+    padding: 25% 10% 10%;
+  }
+}
+
+.pickup-shipping-select {
+  padding: 2% 0;
+}
+
+.checkout-h3 {
+  padding: 2% 0 1%;
+}
+
+.checkout-hr {
+  margin-top: 0;
+}
+
+.list-group-item-cart {
+  padding: 0.5rem 0;
+}
